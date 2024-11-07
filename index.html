@@ -67,8 +67,8 @@ img {
 // Using VFX-JS
 
 // https://amagi.dev/vfx-js
-  export * from "./vfx.js";
-export * from "./constants.js";
+  import * from "./vfx.js";
+import * from "./constants.js";
   const vfx = new VFX();
 
 const lerp = (a, b, t) => a * (1 - t) + b * t;
